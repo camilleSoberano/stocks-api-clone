@@ -1,0 +1,14 @@
+###
+GET http://localhost:5353/api/stock?stock=pypl&password=1234
+
+###
+POST http://localhost:5353/api/test
+Content-Type:application/json
+
+{
+    "message":"Hello World"
+}
+
+###
+GET http://localhost:5353/api/testParams/mobilegames
+
